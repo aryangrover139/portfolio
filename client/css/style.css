@@ -1,0 +1,122 @@
+body {
+    overflow-x: hidden;
+}
+
+.image-container {
+    background-color: #05a8f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 400px;
+    width: 400px;
+    border-radius: 44% 56% 68% 32% / 32% 36% 64% 68%; 
+    background-image: url(../images/IMG_1540.jpg);
+    background-size: 120% 100%;
+    border: 10px solid #05a8f3;
+    animation: borderColorChange 5s ease-in-out infinite, borderRadiusChange 5s ease-in-out infinite; 
+}
+
+@keyframes borderColorChange {
+    0% {
+        border-color: #05a8f3; 
+    }
+  
+    100% {
+        border-color: #05a8f3; 
+    }
+}
+
+@keyframes borderRadiusChange {
+    0% {
+        border-radius: 44% 56% 68% 32% / 32% 36% 64% 68%;  
+    }
+    25% {
+        border-radius: 30% 70% 50% 50% / 60% 90% 20% 60%;  
+    }
+    50% {
+        border-radius: 70%; 
+    }
+    75% {
+        border-radius: 30% 70% 50% 40% / 60% 50% 80% 60%; 
+    }
+    100% {
+        border-radius: 44% 56% 68% 32% / 32% 36% 64% 68%;
+    }
+}
+
+.custom-image {
+    width: 0%;
+    height: 0px;
+    position: absolute;
+    bottom: 10px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 1;
+}
+
+.popup{
+    display: flex;
+    position: fixed;
+    top: 0px;
+    height: 100vh;
+    width: 100%;
+    background-color: #00040ce8;
+    border: 2px solid black;
+    padding: 20px;
+    z-index: 1000;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.thumbs{
+    width: 50px;
+    height: 50px;
+}
+
+.popup-text{
+    margin-top: 10px;
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    text-shadow: 10px 5px 10px rgba(123, 123, 123, 0.865);
+}
+#pops{
+    display: none;
+}
+
+.textt{
+    background: linear-gradient(to bottom, rgba(241, 241, 241, 0.557), #05a8f3);
+    width: 96%; 
+    height: 100%;
+    position: absolute;
+    top: 0;
+    margin-top: -370px;
+    display: flex;
+    padding-top: 250px;
+    /* text-align: end; */
+    /* justify-content: flex-end; */
+    /* flex-direction: column; */
+}
+@media screen and (max-width: 767px) {
+    .textt{
+        padding-top: 170px;
+    }  
+}
+@media screen and(min-width: 800px) and (max-width: 1007px) {
+    .textt{
+        padding-top: 90px;
+    }  
+}
+.hlo:hover .textt{
+    transition: linear;
+    transition-duration: 1S;
+    margin-top: 0px;
+
+}
+
+
+
+ 

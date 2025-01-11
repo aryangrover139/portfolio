@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg  fw-bold  top-0 w-100" style="z-index: 100; background-color: #01091ae8;">
+        <div class="container">
+            <!-- <a class="navbar-brand ourtext text-white" href="#" data-aos="zoom-out-right" data-aos-duration="1500" style="overflow: hidden;"><span
+                    style="font-size:34px">A</span>ryan<span class="text-white"><span
+                        style="font-size:34px">G</span>rover</span></a> -->
+            <img src="./images/logo aggrover.png" alt="" width="12%" data-aos="zoom-out-right" data-aos-duration="1500">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto text-white" data-aos="zoom-out-left" data-aos-duration="1500"
+                    style="overflow: hidden;">
+                    <li class="nav-item">
+                        <a class="nav-link text-white   " aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#education">Education</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contact </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container-fluid " style="background-color: #01091ae8; min-height: 100vh;">
+        <div class="container">
+            <div class="row m-auto">
+                <div class="col-md-7 pt-md-3" data-aos="zoom-out-right" data-aos-duration="1500"
+                    style="overflow: hidden;">
+                    <div class="text">
+                        <h1 class="text-white display-5 ourtext fw-bolder" style="font-size: 65px;">Hi, I'M <span
+                                style="color: #05a8f3;">Aryan</span></h1>
+                        <h1 class=" display-8 ourtext fw-bolder" style="color: #05a8f3;">Mern Stack Developer</h1>
+                        <p class="text-white display-9 ourtext fw-bolder">As a MERN stack developer, I specialize in
+                            creating robust and scalable web applications using MongoDB, Express.js, React, and Node.js.
+                            My expertise lies in designing responsive user interfaces and building powerful back-end
+                            solutions, ensuring a smooth integration between both. I focus on writing clean, efficient
+                            code and am always eager to learn new technologies to enhance my development skills. I
+                            thrive in dynamic environments and enjoy turning complex challenges into seamless,
+                            user-centered applications.</p>
+                    </div>
+                    <button onclick="downloadFile()" class="ourtext fw-bolder mt-3"
+                        style="color: black;border-radius: 10px;padding: 10px;background-color: #05a8f3;border: none;font-size: 20px;overflow: hidden;"
+                        data-aos="zoom-out-right" data-aos-duration="1500">Hire Me</button>
+                    <button class="ourtext fw-bolder mt-3"
+                        style="color: black;border-radius: 10px;padding: 10px;background-color: #05a8f3;border: none;font-size: 20px;overflow: hidden;"
+                        data-aos="zoom-out-left" data-aos-duration="1500">Let's Talk</button>
+
+
+                    <div class="home-icon" data-aos="zoom-out-right" data-aos-duration="1500" style="overflow: hidden;">
+                        <a href="https://www.instagram.com/aryangrover139/" target="_blank"><i class="fa fa-instagram"
+                                style=" border-radius: 50px;padding: 15px;border: 2px solid #05a8f3;margin: 5px;margin-top: 30px;"></i></a>
+                        <a href="https://wa.me/9465161139" target="_blank"><i class="fa fa-whatsapp"
+                                style=" border-radius: 50px;padding: 15px;border: 2px solid #05a8f3;margin: 5px;"></i></a>
+                        <a href="https://www.linkedin.com/feed/?trk=hb_signin" target="_blank"><i class="fa fa-linkedin"
+                                style="border-radius: 50px;padding: 15px;border: 2px solid #05a8f3;margin: 5px;"></i></a>
+                    </div>
+                </div>
+
+                <div class="col-md-5 pt-3" data-aos="zoom-out-left" data-aos-duration="1500">
+                    <div class="image-container">
+                        <img src="./images/IMG_1540.jpg" alt="Custom Image" class="custom-image pt-5">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="about" class="container-fluid pt-sm-3"
+        style="min-height: 100vh;background-color:#00040ce8 ;overflow: hidden;">
+
+        <h1 class="text-white display-5 ourtext fw-bolder text-center"
+            style="font-size: 60px;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;overflow: hidden;"
+            data-aos="zoom-out-right" data-aos-duration="1500">About <span style="color: #05a8f3;">Me</span></h1>
+
+        <div class="img pt-md-3" style="justify-content: center;display: flex; overflow: hidden;"
+            data-aos="zoom-out-left" data-aos-duration="1500">
+            <img src="./images/IMG_1540.jpg" width="400px" alt="" style="border-radius: 10px;">
+        </div>
+        <div class="text pt-sm-3">
+            <h1 class="  ourtext fw-bolder text-white text-center" data-aos="zoom-out-left" data-aos-duration="1500"
+                style="overflow: hidden;"><span style="color: #05a8f3;">Mern</span> Stack Developer</h1>
+            <p class="text-white  ourtext fw-bolder text-center" data-aos="zoom-out-right" data-aos-duration="1500">A
+                MERN stack developer builds web applications using MongoDB, Express.js,
+                React, and Node.js. MongoDB handles data storage, Express and Node.js power the backend, while React is
+                used for building the frontend. The developer works on both the client-side and server-side to create
+                dynamic, full-stack applications.</p>
+
+        </div>
+    </div>
+
+    <div id="education" class="container-fluid " style="background-color: #01091ae8; min-height: 100vh;">
+
+        <div class="container" data-aos="zoom-out-right" data-aos-duration="1500" style="overflow: hidden;">
+            <h1 class=" display-5 ourtext fw-bolder text-center" style="font-size: 60px;color: #05a8f3;"
+                data-aos="zoom-out-right" data-aos-duration="1500">Journey</h1>
+
+
+            <div class="row">
+                <div class="col-md-6 p-2 pt-3">
+                    <h1 class="display-5 ourtext fw-bolder" style="color: #05a8f3; padding-left: 5px;"
+                        data-aos="zoom-out-left" data-aos-duration="1500">Education</h1>
+
+                    <div class="card rounded dark text-white mb-3" style="background-color:#00040ce8;">
+                        <div class="card-body p-3">
+                            <h5 class="card-text display-7 ourtext fw-bolder text-white">April 2019 - March 2020</h5>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">10TH Class</p>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">I Had Done MY Matriculation from
+                                SD Public School</p>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">CBSE Board (10TH)</p>
+                        </div>
+                    </div>
+
+                    <div class="card rounded dark text-white mb-3" style="background-color: #00040ce8;">
+                        <div class="card-body p-3">
+                            <h5 class="card-text display-8 ourtext fw-bolder text-white">April 2022 - March-2023</h5>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">12TH</p>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">I Had Done MY Senior Secondary
+                                School</p>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">PSEB (12TH)</p>
+                        </div>
+                    </div>
+
+                    <div class="card rounded dark text-white mb-3" style="background-color: #00040ce8;">
+                        <div class="card-body p-3">
+                            <h5 class="card-text display-8 ourtext fw-bolder text-white">July 2023</h5>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">Graduation</p>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">Bachelor of Business
+                                Administration (Pursuing)</p>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">Ravinder Nath Tagore</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 pt-md-3" data-aos="zoom-out-left" data-aos-duration="1500"
+                    style="overflow: hidden;">
+                    <h1 class="card-text display-5 ourtext fw-bolder" style="color: #05a8f3;padding-left: 5px;">
+                        Experience</h1>
+
+                    <div class="card rounded dark text-white mb-3" style="background-color: #00040ce8;">
+                        <div class="card-body p-3">
+                            <h5 class="card-text display-8 ourtext fw-bolder text-white">Nov-13 Dec-29</h5>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">Internship</p>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">Here I gained practical
+                                experience in building full-stack web applications, working with MongoDB, Express,
+                                React, and Node.js, and enhancing my problem-solving and coding skills in a professional
+                                environment.</p>
+                        </div>
+                    </div>
+
+                    <div class="card rounded dark text-white mb-3" style="background-color: #00040ce8;">
+                        <div class="card-body p-3">
+                            <h5 class="card-text display-8 ourtext fw-bolder text-white">June 2024 - Nov 2024</h5>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">MERN Stack Training</p>
+                            <p class="card-text display-8 ourtext fw-bolder text-white">I have done 6 months training
+                                and gained deep insights into full-stack development and programming.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="container-fluid" style="background-color: #00040ce8; min-height: 100vh;"
+        data-aos="zoom-out-left" data-aos-duration="1500">
+        <div class="container">
+            <div class="row">
+                <h1 class="display-5 ourtext fw-bolder text-center" style="color: #05a8f3;font-size: 60px;">Projects
+                </h1>
+                <div class="col-md-6 hlo mt-3" style="overflow: hidden; position: relative;">
+                    <img src="./images/innova-crysta-exterior-right-front-three-quarter-3.webp" alt="" width="100%">
+                    <a href="https://tripytravels.netlify.app/" style="text-decoration: none;color: black;">
+                        <div class="textt">
+                            <h5 class="ourtext fw-bolder text-center ">TripyTravels is a cab booking website using HTML,
+                                CSS, Bootstrap, Node.js, and Mongoose. AI enhances personalized booking for a seamless
+                                experience.</h5>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-6 hlo mt-3" style="overflow: hidden; position: relative;">
+                    <img src="./images/innova-crysta-exterior-right-front-three-quarter-3.webp" alt="" width="100%">
+                    <a href="https://tripytravels.netlify.app/" style="text-decoration: none;color: black;">
+                        <div class="textt">
+                            <h5 class="ourtext fw-bolder text-center ">TripyTravels is a cab booking website using HTML,
+                                CSS, Bootstrap, Node.js, and Mongoose. AI enhances personalized booking for a seamless
+                                experience.</h5>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: #01091ae8; min-height: 100vh;" data-aos="zoom-out-left"
+        data-aos-duration="1500">
+        <div class="container">
+            <h1 class="display-5 ourtext fw-bolder text-center" style="color: #05a8f3;font-size: 60px;">Skills</h1>
+
+            <div class="row">
+                <h2 class="display-5 ourtext fw-bolder text-white text-center PT-1">Technical Skills</h2>
+
+                <div class="col-md-12">
+                    <div class="text pt-3 ">
+                        <h3 class="ourtext fw-bolder text-white pt-1">HTML-5</h3>
+                        <div
+                            style="border: 4px solid black; border-radius: 20px; width: 100%; box-shadow: 5px 5px 5px #05a8f3; position: relative; height: 30px;">
+                            <div style="background-color: #05a8f3; height: 100%; width: 90%; border-radius: 15px;">
+                            </div>
+                            <span
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white;">90%</span>
+                        </div>
+
+                        <h3 class=" ourtext fw-bolder text-white pt-1">CSS-3</h3>
+                        <div
+                            style="border: 4px solid black; border-radius: 20px; width: 100%; box-shadow: 5px 5px 5px #05a8f3; position: relative; height: 30px;">
+                            <div style="background-color: #05a8f3; height: 100%; width: 90%; border-radius: 15px;">
+                            </div>
+                            <span
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white;">90%</span>
+                        </div>
+
+                        <h3 class=" ourtext fw-bolder text-white pt-1">BOOTSTRAP-5</h3>
+                        <div
+                            style="border: 4px solid black; border-radius: 20px; width: 100%; box-shadow: 5px 5px 5px #05a8f3; position: relative; height: 30px;">
+                            <div style="background-color: #05a8f3; height: 100%; width: 90%; border-radius: 15px;">
+                            </div>
+                            <span
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white;">90%</span>
+                        </div>
+
+                        <h3 class=" ourtext fw-bolder text-white pt-1">JAVASCRIPT-ES6</h3>
+                        <div
+                            style="border: 4px solid black; border-radius: 20px; width: 100%; box-shadow: 5px 5px 5px #05a8f3; position: relative; height: 30px;">
+                            <div style="background-color: #05a8f3; height: 100%; width: 60%; border-radius: 15px;">
+                            </div>
+                            <span
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white;">60%</span>
+                        </div>
+                        <h3 class=" ourtext fw-bolder text-white mb-2 pt-1">REACT.JS</h3>
+                        <div
+                            style="border: 4px solid black; border-radius: 20px; width: 100%; box-shadow: 5px 5px 5px #05a8f3; position: relative; height: 30px;">
+                            <div style="background-color: #05a8f3; height: 100%; width: 70%; border-radius: 15px;">
+                            </div>
+                            <span
+                                style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white;">70%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="contact" class="container-fluid " style="background-color: #00040ce8; min-height: 100vh;overflow: hidden;"
+        data-aos="zoom-out-right" data-aos-duration="1500">
+        <h1 class="display-5 fw-bolder text-center" style="color: #05a8f3;font-size: 60px;">Contact Us</h1>
+        <div class="container my-5 p-3"
+            style="width:100%; ;padding-top: 50px; min-height: 400px; background-color: #05a8f3;">
+
+            <form action="http://localhost:9000/create" method="POST" id="formss">
+                <div class="row">
+                    <div class="col-md-6 ps-md-5 ps-2">
+                        <label for="" style="font-size: 20px;">Name</label><br>
+                        <input type="text" name="Name" id="Name" placeholder="Name"
+                            style="padding: 8px;width: 100%;border: none;"><br><br>
+
+                        <label for="" style="font-size: 20px;">Email</label><br>
+                        <input type="email" name="Email" id="Email" placeholder="Email"
+                            style="padding: 8px;width: 100%;border: none;" required><br><br>
+
+                        <label for="" style="font-size: 20px;">Phone Number</label><br>
+                        <input type="phone" name="Contact" id="Contact" placeholder="Phone Number"
+                            style="padding: 8px;width: 100%;border: none;" maxlength="10" required><br><br>
+
+                        <label for="" style="font-size: 20px;">Address</label><br>
+                        <input type="text" name="Address" id="Address" placeholder="Address"
+                            style="padding: 8px;width: 100%;border: none;"><br><br>
+                    </div>
+
+                    <div class="col-md-6">
+                        <label for="" style="font-size: 20px;">Write Message</label><br>
+                        <textarea class="w-100" name="Message" id="Message" placeholder="Write Message"
+                            style="border: none;padding: 8px; height: 200px;"></textarea><br><br>
+                        <button type="submit" style="padding: 7px;width: 30%;border: none;margin-top: 20px;"
+                            onclick="abc()">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+
+    </div>
+
+    <footer class=" p-2 border-top bg-dark">
+        <p class="text-light pb-0 text-center ">All copyrights &#169; reserved by<span style="color:#05a8f3"> Aryan
+                Grover</span>
+        </p>
+
+    </footer>
+
+    <!-- <button onclick="abc()">hello</button> -->
+    <div id="pops" class="pop">
+        <div class="popup" id="popup">
+            <div class="popups">
+                <img src="./images/panda-removebg-preview.png" alt="thumbs">
+                <p class="popup-text">Your Data Has Been Successfully Saved</p>
+            </div>
+
+        </div>
+    </div>
+
+
+    <script>
+        var form = document.getElementById('formss');
+        form.onsubmit = function () {
+            document.getElementById('pops').style.display = "block";
+
+            setTimeout(function () {
+                location.reload();
+            }, 5000);
+        }
+    </script>
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
+    <script>
+        function downloadFile() {
+
+            const link = document.createElement('a');
+
+            link.href = './images/Aryan Grover (2).pdf';
+
+            link.download = 'Aryan_Grover.pdf';
+
+            link.click();
+        }
+    </script>
+
+
+
+
+
+</body>
+
+</html>
